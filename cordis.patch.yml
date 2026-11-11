@@ -1,0 +1,9 @@
+# dsh-scratchpad bundle patch.
+#
+# One Host row mounts the package. The browser half is declared by
+# package.json `dsh.client` and binds to the row named after the bare package,
+# so the id here and the client factory id must agree with the package name.
+- insert:
+    - id: dsh-scratchpad
+      name: '@local/dsh-scratchpad'
+      config: {}
